@@ -30,16 +30,19 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
-/* Верхний блок */
+
+/* Header block, с главным изображением*/
 .header {
     background-image: url(img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin: 0 auto;
     height: 768px;
 }
 .container {
-    width: 940px;
+    max-width: 940px;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
 }
@@ -82,7 +85,7 @@ body {
     text-shadow: 0 0 2px currentColor;
     transform: scale(1.1);
 }
-/* Меню */
+/* Меню под главным блоком*/
 .menu {
     position: sticky;
     top: 0;  
@@ -125,7 +128,8 @@ body {
     cursor: pointer;
     transform: scale(1.3);
 }
-/* OUR STORY */
+
+/* Блок OUR STORY */
 .our-story {
     margin-bottom: 118px;
 }
@@ -191,7 +195,7 @@ body {
   top: 10px;
   left: 10px;
 }
-/* Our capabilities */
+    /* Блок OUR CAPABILITIES*/
 .our-capabilities {
     margin-bottom: 115px;
 }
@@ -249,7 +253,8 @@ body {
     line-height: 23px;
     max-width: 250px;
 }
-/* Get in touch */
+
+/* Getintouch block*/
 .getintouch {
     background-image: url(img/bg2.png);
     background-repeat: no-repeat;
