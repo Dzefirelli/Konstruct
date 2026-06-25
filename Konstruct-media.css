@@ -20,6 +20,7 @@
 
     /* Меню под главным блоком*/
     .menu {
+    position: static;
     margin-bottom: 20px;
     }
     .menu__inside {
@@ -80,7 +81,7 @@
     flex-direction: column;
 }
     .our_capabilities__inside__item {
-    width: 60%;
+    width: 90%;
     align-items: center;
     text-align: center;
     margin: 0 auto;
